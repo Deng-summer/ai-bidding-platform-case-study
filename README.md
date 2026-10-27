@@ -2,13 +2,21 @@
 
 *A personal portfolio summary of a team-built AI tender document workflow. The original application source, customer documents, prompts, credentials, and deployment configuration remain private because they include confidential project material.*
 
-## Product view
+**Open the deployed platform:** [AI bidding system](http://121.41.35.165:3000/) · [System health page](http://121.41.35.165:3000/health). Both routes currently redirect visitors to login; a platform account is required to view the application. Availability and access may change.
+
+## Interface screenshots
+
+### Project workbench
 
 ![Project workbench in a demo environment](media/project-workbench.png)
 
 This screenshot shows a demo workbench with a project list, project status, knowledge library, and system health navigation. It does not show a completed tender document or validate the quality of generated content.
 
-**Deployed entry:** [AI bidding platform](http://121.41.35.165:3000/) — currently redirects to a login page; access requires an account. Availability and access may change.
+### System health
+
+![AI bidding system health dashboard in a demo environment](media/system-health.png)
+
+This is a historical screenshot of the demo environment's service, database, model, and task diagnostics. Its labels and status values describe that moment only; they are not a live uptime or performance claim. The public screenshot does not provide access to the private source or configuration.
 
 ## Workflow and architecture
 
@@ -39,6 +47,6 @@ This is a team product. I can discuss my specific implementation role and walk t
 
 The separate [Grounded Document Workflow demo](https://github.com/Deng-summer/grounded-document-workflow-demo) is original sample code using invented content. It demonstrates document chunking, retrieval, evidence-linked drafting, and citation validation. It is **not** the private platform's source code or its deployed backend.
 
-Some separately reviewed, non-confidential code may be released later. This repository currently contains only the case study and screenshot.
+Some separately reviewed, non-confidential code may be released later. This repository currently contains only the case study and interface screenshots.
 
 © 2026 Deng-summer. Personal portfolio summary; not official company documentation.
